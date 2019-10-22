@@ -1,4 +1,4 @@
-Goal: learn how to facilitate bi-directional message-sending.
+Goal: learn how to facilitate and understand bi-directional message-sending.
 
 makefile makes both client.cpp and server.cpp.
 
