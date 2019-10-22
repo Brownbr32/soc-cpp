@@ -1,0 +1,17 @@
+Goal: learn how to facilitate bi-directional message-sending.
+
+makefile makes both client.cpp and server.cpp.
+
+sendReceive.cpp:
+    contains the functions called by threads in Server.cpp and Client.cpp
+
+socket.h:
+    header file for both Server.cpp and Client.cpp
+
+to do:
+    Examine communication with wireshark.
+    client pass destination ip in program call.
+    adjust to fulfill 2690 requirements.
+    mutex on the output (queue for receive).
+    compare and contrast TCP and UDP
+    

@@ -1,3 +1,3 @@
-server client:	Client.cpp Server.cpp
-	gcc Client.cpp -o client
-	gcc Server.cpp -o server
+server client:	Client.cpp Server.cpp makefile
+	g++ Client.cpp -o client -lpthread
+	g++ Server.cpp -o server -lpthread
